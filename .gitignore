@@ -1,0 +1,19 @@
+# 交付包本身应该进仓库的东西；其余都是可再生产物或上游代码
+
+# 上游第三方代码（不得进自己的 GitHub 仓库）
+_upstream/
+pg_lab/data/
+pg_lab/runs/
+pg_lab/__pycache__/
+pg_lab/analysis/*.npy
+
+# 中间产物
+*.pyc
+__pycache__/
+.vscode/
+.DS_Store
+
+# 大型二进制（如需提交请在 README 里说明获取方式）
+*.tar.gz
+*.int8.ptz
+final_model.int8.ptz

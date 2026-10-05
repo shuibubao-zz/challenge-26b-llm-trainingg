@@ -1,0 +1,69 @@
+{
+  "author": "卢怡然",
+  "github_id": "luyiran",
+  "track": "10min_16mb",
+  "name": "Runtime Knee-Calibrated Sliding-Window Evaluation",
+  "status": "not_run",
+  "date": "2026-10-04",
+
+  "_honest_note": "本文件所有 8xH100 相关字段均为 null。交付者本机无 GPU、无外网，从未在 8xH100 上执行过训练或评测。这里不填任何推测值。字段结构对齐官方 records/track_10min_16mb/*/submission.json，便于拿到算力后直接回填。",
+
+  "val_bpb": null,
+  "val_loss": null,
+  "val_bpb_std": null,
+  "seeds": [1337, 42, 2026],
+  "n_seeds": 3,
+  "seed_results": null,
+
+  "eval_stride": null,
+  "eval_stride_mode": "knee",
+  "eval_cost_budget": 2.0,
+  "knee_gain_frac": 0.95,
+  "eval_cost_budget_note": "EVAL_COST_BUDGET=2.0 是本方案的目标档位，不是一个已被验证的最优值。真机上应先跑 EVAL_STRIDE_MODE=fixed 的协议族扫描（H2），再用扫描出的代价—收益曲线回头定这个值。",
+
+  "hardware": null,
+  "train_time_seconds": null,
+  "eval_time_seconds": null,
+  "train_steps": null,
+  "step_avg_ms": null,
+  "artifact_bytes": null,
+  "code_bytes": 61809,
+  "bytes_total": null,
+
+  "model_params": null,
+  "num_layers": null,
+  "model_dim": null,
+  "vocab_size": null,
+  "train_seq_len": null,
+
+  "technique_summary": [
+    "官方 baseline 架构与训练脚本：未改动（sha256 见 evidence/base_sha256.txt）",
+    "滑窗评测机制：来自官方 record 2026-03-19_SlidingWindowEval（Matthew Li）",
+    "本方案改动：把 eval stride 从硬编码常数改为由 rho(p) 现场标定",
+    "新增 GPT.forward_logits（与 forward 数学等价，仅多返回逐位置 logits）",
+    "新增 measure_position_profile / pick_stride_by_knee / eval_val_sliding / resolve_eval_stride"
+  ],
+
+  "attribution": {
+    "base": "openai/parameter-golf  train_gpt.py (sha256 c6cae5e7...)",
+    "sliding_window_mechanism": "openai/parameter-golf records/track_10min_16mb/2026-03-19_SlidingWindowEval (Matthew Li)",
+    "our_contribution": "stride 的运行时拐点标定 + 用训练分布而非验证集做标定 + 评测算力预算显式化"
+  },
+
+  "local_evidence": {
+    "note": "以下数字来自 CPU 小尺度实验台 pg_lab/，坐标系与官方不同，不可与官方 BPB 直接比较。",
+    "model_params": 493840,
+    "vocab": "256 裸字节",
+    "corpus": "本机 .md/.txt/.py 4.0MB train / 400KB val",
+    "seeds": [1337, 42, 2026],
+    "naive_bpb_mean": 2.00351,
+    "best_bpb_mean": 1.97734,
+    "best_cost_multiplier": 2.67,
+    "bpb_at_2x_cost": 1.97737,
+    "bpb_at_16x_cost": 1.97891,
+    "paired_diff_2x_vs_16x": 0.00154,
+    "paired_std_2x_vs_16x": 0.00050,
+    "rho_reconstruction_max_error_bpb": 0.00209,
+    "train_vs_val_calibration_agree": true
+  }
+}

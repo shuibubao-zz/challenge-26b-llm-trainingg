@@ -1,0 +1,1478 @@
+{
+  "roots": [
+    "D:\\develop\\NodeJS\\node_modules",
+    "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib"
+  ],
+  "extensions": [
+    ".md",
+    ".py",
+    ".rst",
+    ".txt"
+  ],
+  "val_every": 8,
+  "train_cap_bytes": 4000000,
+  "val_cap_bytes": 400000,
+  "train_bytes": 4000000,
+  "val_bytes": 400000,
+  "train_sha256": "e9a6bdf8088f7448e9f11b0e05f06f06a41e3edcddceb2b375f555f641d358ea",
+  "val_sha256": "8e498e0101a32aae13b13a5e40a22ce54c3159690cf5b3681276eaa404fc425e",
+  "n_files_used": 291,
+  "filelist_sha256": "7c2c121c0ad2819747a080b4d166d038a1aa55d263c84d0694c47f8d9ecc73a0",
+  "files": [
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\__future__.py",
+      "split": "val",
+      "bytes": 5218
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\__hello__.py",
+      "split": "train",
+      "bytes": 227
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\__phello__\\__init__.py",
+      "split": "train",
+      "bytes": 97
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\__phello__\\spam.py",
+      "split": "train",
+      "bytes": 97
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_aix_support.py",
+      "split": "train",
+      "bytes": 4021
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_android_support.py",
+      "split": "train",
+      "bytes": 7417
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_apple_support.py",
+      "split": "val",
+      "bytes": 2256
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_collections_abc.py",
+      "split": "train",
+      "bytes": 32668
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_colorize.py",
+      "split": "train",
+      "bytes": 3068
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_compat_pickle.py",
+      "split": "train",
+      "bytes": 8735
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_compression.py",
+      "split": "train",
+      "bytes": 5681
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_ios_support.py",
+      "split": "train",
+      "bytes": 2672
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_markupbase.py",
+      "split": "train",
+      "bytes": 14653
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_opcode_metadata.py",
+      "split": "train",
+      "bytes": 9265
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_osx_support.py",
+      "split": "val",
+      "bytes": 22023
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_py_abc.py",
+      "split": "train",
+      "bytes": 6189
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pydatetime.py",
+      "split": "train",
+      "bytes": 91983
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pydecimal.py",
+      "split": "train",
+      "bytes": 227560
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyio.py",
+      "split": "train",
+      "bytes": 94231
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pylong.py",
+      "split": "train",
+      "bytes": 11830
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\__init__.py",
+      "split": "train",
+      "bytes": 925
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\__main__.py",
+      "split": "train",
+      "bytes": 422
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\_minimal_curses.py",
+      "split": "val",
+      "bytes": 1844
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\_threading_handler.py",
+      "split": "train",
+      "bytes": 2170
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\base_eventqueue.py",
+      "split": "train",
+      "bytes": 3840
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\commands.py",
+      "split": "train",
+      "bytes": 12295
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\completing_reader.py",
+      "split": "train",
+      "bytes": 10050
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\console.py",
+      "split": "train",
+      "bytes": 6866
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\curses.py",
+      "split": "train",
+      "bytes": 1241
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\fancy_termios.py",
+      "split": "train",
+      "bytes": 2566
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\historical_reader.py",
+      "split": "val",
+      "bytes": 13240
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\input.py",
+      "split": "train",
+      "bytes": 3779
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\keymap.py",
+      "split": "train",
+      "bytes": 6460
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\main.py",
+      "split": "train",
+      "bytes": 1938
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\pager.py",
+      "split": "train",
+      "bytes": 5815
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\reader.py",
+      "split": "train",
+      "bytes": 27712
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\readline.py",
+      "split": "train",
+      "bytes": 20221
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\simple_interact.py",
+      "split": "train",
+      "bytes": 5797
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\trace.py",
+      "split": "val",
+      "bytes": 433
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\types.py",
+      "split": "train",
+      "bytes": 354
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\unix_console.py",
+      "split": "train",
+      "bytes": 26762
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\unix_eventqueue.py",
+      "split": "train",
+      "bytes": 2524
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\utils.py",
+      "split": "train",
+      "bytes": 2444
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\windows_console.py",
+      "split": "train",
+      "bytes": 21697
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_pyrepl\\windows_eventqueue.py",
+      "split": "train",
+      "bytes": 991
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_sitebuiltins.py",
+      "split": "train",
+      "bytes": 2699
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_strptime.py",
+      "split": "val",
+      "bytes": 34734
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_threading_local.py",
+      "split": "train",
+      "bytes": 4363
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\_weakrefset.py",
+      "split": "train",
+      "bytes": 5893
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\abc.py",
+      "split": "train",
+      "bytes": 6538
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\antigravity.py",
+      "split": "train",
+      "bytes": 500
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\argparse.py",
+      "split": "train",
+      "bytes": 102948
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\ast.py",
+      "split": "train",
+      "bytes": 65339
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\__init__.py",
+      "split": "train",
+      "bytes": 1220
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\__main__.py",
+      "split": "val",
+      "bytes": 6456
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\base_events.py",
+      "split": "train",
+      "bytes": 81299
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\base_futures.py",
+      "split": "train",
+      "bytes": 1974
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\base_subprocess.py",
+      "split": "train",
+      "bytes": 10329
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\base_tasks.py",
+      "split": "train",
+      "bytes": 2672
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\constants.py",
+      "split": "train",
+      "bytes": 1413
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\coroutines.py",
+      "split": "train",
+      "bytes": 3342
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\events.py",
+      "split": "train",
+      "bytes": 29810
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\exceptions.py",
+      "split": "val",
+      "bytes": 1752
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\format_helpers.py",
+      "split": "train",
+      "bytes": 2727
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\futures.py",
+      "split": "train",
+      "bytes": 14189
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\locks.py",
+      "split": "train",
+      "bytes": 20584
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\log.py",
+      "split": "train",
+      "bytes": 124
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\mixins.py",
+      "split": "train",
+      "bytes": 481
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\proactor_events.py",
+      "split": "train",
+      "bytes": 33494
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\protocols.py",
+      "split": "train",
+      "bytes": 6957
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\queues.py",
+      "split": "val",
+      "bytes": 10155
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\runners.py",
+      "split": "train",
+      "bytes": 7234
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\selector_events.py",
+      "split": "train",
+      "bytes": 48654
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\sslproto.py",
+      "split": "train",
+      "bytes": 31869
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\staggered.py",
+      "split": "train",
+      "bytes": 7077
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\streams.py",
+      "split": "train",
+      "bytes": 28486
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\subprocess.py",
+      "split": "train",
+      "bytes": 7737
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\taskgroups.py",
+      "split": "train",
+      "bytes": 10049
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\tasks.py",
+      "split": "val",
+      "bytes": 39726
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\threads.py",
+      "split": "train",
+      "bytes": 794
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\timeouts.py",
+      "split": "train",
+      "bytes": 6066
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\transports.py",
+      "split": "train",
+      "bytes": 10808
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\trsock.py",
+      "split": "train",
+      "bytes": 2475
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\unix_events.py",
+      "split": "train",
+      "bytes": 54384
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\windows_events.py",
+      "split": "train",
+      "bytes": 32804
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\asyncio\\windows_utils.py",
+      "split": "train",
+      "bytes": 5470
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\base64.py",
+      "split": "val",
+      "bytes": 22317
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\bdb.py",
+      "split": "train",
+      "bytes": 36099
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\bisect.py",
+      "split": "train",
+      "bytes": 3423
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\bz2.py",
+      "split": "train",
+      "bytes": 11969
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\cProfile.py",
+      "split": "train",
+      "bytes": 6624
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\calendar.py",
+      "split": "train",
+      "bytes": 26077
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\cmd.py",
+      "split": "train",
+      "bytes": 15316
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\code.py",
+      "split": "train",
+      "bytes": 13170
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\codecs.py",
+      "split": "val",
+      "bytes": 36978
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\codeop.py",
+      "split": "train",
+      "bytes": 5828
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\collections\\__init__.py",
+      "split": "train",
+      "bytes": 52634
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\colorsys.py",
+      "split": "train",
+      "bytes": 4062
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\compileall.py",
+      "split": "train",
+      "bytes": 20665
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\concurrent\\__init__.py",
+      "split": "train",
+      "bytes": 38
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\concurrent\\futures\\__init__.py",
+      "split": "train",
+      "bytes": 1583
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\concurrent\\futures\\_base.py",
+      "split": "train",
+      "bytes": 22949
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\concurrent\\futures\\process.py",
+      "split": "val",
+      "bytes": 35522
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\concurrent\\futures\\thread.py",
+      "split": "train",
+      "bytes": 8962
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\configparser.py",
+      "split": "train",
+      "bytes": 54271
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\contextlib.py",
+      "split": "train",
+      "bytes": 27801
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\contextvars.py",
+      "split": "train",
+      "bytes": 129
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\copy.py",
+      "split": "train",
+      "bytes": 8975
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\copyreg.py",
+      "split": "train",
+      "bytes": 7614
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\csv.py",
+      "split": "train",
+      "bytes": 19178
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\ctypes\\__init__.py",
+      "split": "val",
+      "bytes": 19505
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\ctypes\\_aix.py",
+      "split": "train",
+      "bytes": 12505
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\ctypes\\_endian.py",
+      "split": "train",
+      "bytes": 2557
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\ctypes\\macholib\\__init__.py",
+      "split": "train",
+      "bytes": 154
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\ctypes\\macholib\\dyld.py",
+      "split": "train",
+      "bytes": 5024
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\ctypes\\macholib\\dylib.py",
+      "split": "train",
+      "bytes": 960
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\ctypes\\macholib\\framework.py",
+      "split": "train",
+      "bytes": 1105
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\ctypes\\util.py",
+      "split": "train",
+      "bytes": 14252
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\ctypes\\wintypes.py",
+      "split": "val",
+      "bytes": 5629
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\curses\\__init__.py",
+      "split": "train",
+      "bytes": 3369
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\curses\\ascii.py",
+      "split": "train",
+      "bytes": 2543
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\curses\\has_key.py",
+      "split": "train",
+      "bytes": 5634
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\curses\\panel.py",
+      "split": "train",
+      "bytes": 87
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\curses\\textpad.py",
+      "split": "train",
+      "bytes": 7775
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\dataclasses.py",
+      "split": "train",
+      "bytes": 66475
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\datetime.py",
+      "split": "train",
+      "bytes": 268
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\dbm\\__init__.py",
+      "split": "val",
+      "bytes": 6024
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\dbm\\dumb.py",
+      "split": "train",
+      "bytes": 11711
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\dbm\\gnu.py",
+      "split": "train",
+      "bytes": 72
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\dbm\\ndbm.py",
+      "split": "train",
+      "bytes": 70
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\dbm\\sqlite3.py",
+      "split": "train",
+      "bytes": 4273
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\decimal.py",
+      "split": "train",
+      "bytes": 2798
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\difflib.py",
+      "split": "train",
+      "bytes": 83367
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\dis.py",
+      "split": "train",
+      "bytes": 40962
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\doctest.py",
+      "split": "val",
+      "bytes": 109414
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\__init__.py",
+      "split": "train",
+      "bytes": 1764
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\_encoded_words.py",
+      "split": "train",
+      "bytes": 8541
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\_header_value_parser.py",
+      "split": "train",
+      "bytes": 113183
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\_parseaddr.py",
+      "split": "train",
+      "bytes": 18126
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\_policybase.py",
+      "split": "train",
+      "bytes": 15549
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\architecture.rst",
+      "split": "train",
+      "bytes": 9561
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\base64mime.py",
+      "split": "train",
+      "bytes": 3551
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\charset.py",
+      "split": "val",
+      "bytes": 16998
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\contentmanager.py",
+      "split": "train",
+      "bytes": 10594
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\encoders.py",
+      "split": "train",
+      "bytes": 1778
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\errors.py",
+      "split": "train",
+      "bytes": 3814
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\feedparser.py",
+      "split": "train",
+      "bytes": 22869
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\generator.py",
+      "split": "train",
+      "bytes": 21420
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\header.py",
+      "split": "train",
+      "bytes": 24464
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\headerregistry.py",
+      "split": "train",
+      "bytes": 21244
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\iterators.py",
+      "split": "val",
+      "bytes": 2129
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\message.py",
+      "split": "train",
+      "bytes": 48442
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\mime\\application.py",
+      "split": "train",
+      "bytes": 1321
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\mime\\audio.py",
+      "split": "train",
+      "bytes": 3004
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\mime\\base.py",
+      "split": "train",
+      "bytes": 914
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\mime\\image.py",
+      "split": "train",
+      "bytes": 3726
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\mime\\message.py",
+      "split": "train",
+      "bytes": 1315
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\mime\\multipart.py",
+      "split": "val",
+      "bytes": 1619
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\mime\\nonmultipart.py",
+      "split": "train",
+      "bytes": 689
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\mime\\text.py",
+      "split": "train",
+      "bytes": 1394
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\parser.py",
+      "split": "train",
+      "bytes": 4975
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\policy.py",
+      "split": "train",
+      "bytes": 10614
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\quoprimime.py",
+      "split": "train",
+      "bytes": 9871
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\email\\utils.py",
+      "split": "train",
+      "bytes": 16615
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\__init__.py",
+      "split": "train",
+      "bytes": 6020
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\aliases.py",
+      "split": "val",
+      "bytes": 6028
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\ascii.py",
+      "split": "train",
+      "bytes": 1248
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\base64_codec.py",
+      "split": "train",
+      "bytes": 1533
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\big5.py",
+      "split": "train",
+      "bytes": 1019
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\big5hkscs.py",
+      "split": "train",
+      "bytes": 1039
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\bz2_codec.py",
+      "split": "train",
+      "bytes": 2249
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\charmap.py",
+      "split": "train",
+      "bytes": 2084
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp037.py",
+      "split": "train",
+      "bytes": 13121
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp1026.py",
+      "split": "train",
+      "bytes": 13113
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp1125.py",
+      "split": "train",
+      "bytes": 34597
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp1140.py",
+      "split": "train",
+      "bytes": 13105
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp1250.py",
+      "split": "train",
+      "bytes": 13686
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp1251.py",
+      "split": "train",
+      "bytes": 13361
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp1252.py",
+      "split": "train",
+      "bytes": 13511
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp1253.py",
+      "split": "train",
+      "bytes": 13094
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp1255.py",
+      "split": "train",
+      "bytes": 12466
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp1256.py",
+      "split": "train",
+      "bytes": 12814
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp1257.py",
+      "split": "train",
+      "bytes": 13374
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp1258.py",
+      "split": "train",
+      "bytes": 13364
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp273.py",
+      "split": "train",
+      "bytes": 14132
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp424.py",
+      "split": "train",
+      "bytes": 12055
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp437.py",
+      "split": "train",
+      "bytes": 34564
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp720.py",
+      "split": "train",
+      "bytes": 13686
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp737.py",
+      "split": "train",
+      "bytes": 34681
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp775.py",
+      "split": "train",
+      "bytes": 34476
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp850.py",
+      "split": "train",
+      "bytes": 34105
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp852.py",
+      "split": "train",
+      "bytes": 35002
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp855.py",
+      "split": "train",
+      "bytes": 33850
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp856.py",
+      "split": "train",
+      "bytes": 12423
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp858.py",
+      "split": "train",
+      "bytes": 34015
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp860.py",
+      "split": "train",
+      "bytes": 34681
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp861.py",
+      "split": "train",
+      "bytes": 34633
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp862.py",
+      "split": "train",
+      "bytes": 33370
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp863.py",
+      "split": "train",
+      "bytes": 34252
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp864.py",
+      "split": "train",
+      "bytes": 33663
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp865.py",
+      "split": "train",
+      "bytes": 34618
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp869.py",
+      "split": "train",
+      "bytes": 32965
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp874.py",
+      "split": "train",
+      "bytes": 12595
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp875.py",
+      "split": "train",
+      "bytes": 12854
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp932.py",
+      "split": "train",
+      "bytes": 1023
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp949.py",
+      "split": "train",
+      "bytes": 1023
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\cp950.py",
+      "split": "train",
+      "bytes": 1023
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\euc_jis_2004.py",
+      "split": "train",
+      "bytes": 1051
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\euc_jp.py",
+      "split": "train",
+      "bytes": 1027
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\euc_kr.py",
+      "split": "train",
+      "bytes": 1027
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\gb18030.py",
+      "split": "train",
+      "bytes": 1031
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\gb2312.py",
+      "split": "train",
+      "bytes": 1027
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\gbk.py",
+      "split": "train",
+      "bytes": 1015
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\hex_codec.py",
+      "split": "train",
+      "bytes": 1508
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\hp_roman8.py",
+      "split": "train",
+      "bytes": 13475
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\idna.py",
+      "split": "train",
+      "bytes": 13248
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso2022_jp.py",
+      "split": "train",
+      "bytes": 1053
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso2022_jp_1.py",
+      "split": "train",
+      "bytes": 1061
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso2022_jp_2.py",
+      "split": "train",
+      "bytes": 1061
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso2022_jp_2004.py",
+      "split": "train",
+      "bytes": 1073
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso2022_jp_3.py",
+      "split": "train",
+      "bytes": 1061
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso2022_jp_ext.py",
+      "split": "train",
+      "bytes": 1069
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso8859_1.py",
+      "split": "train",
+      "bytes": 13176
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso8859_10.py",
+      "split": "train",
+      "bytes": 13589
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso8859_11.py",
+      "split": "train",
+      "bytes": 12335
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso8859_13.py",
+      "split": "train",
+      "bytes": 13271
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso8859_14.py",
+      "split": "train",
+      "bytes": 13652
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso8859_15.py",
+      "split": "train",
+      "bytes": 13212
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso8859_16.py",
+      "split": "train",
+      "bytes": 13557
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso8859_3.py",
+      "split": "train",
+      "bytes": 13089
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso8859_4.py",
+      "split": "train",
+      "bytes": 13376
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso8859_5.py",
+      "split": "train",
+      "bytes": 13015
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso8859_6.py",
+      "split": "train",
+      "bytes": 10833
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso8859_7.py",
+      "split": "train",
+      "bytes": 12844
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso8859_8.py",
+      "split": "train",
+      "bytes": 11036
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\iso8859_9.py",
+      "split": "train",
+      "bytes": 13156
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\koi8_r.py",
+      "split": "train",
+      "bytes": 13779
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\koi8_t.py",
+      "split": "train",
+      "bytes": 13193
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\koi8_u.py",
+      "split": "train",
+      "bytes": 13762
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\kz1048.py",
+      "split": "train",
+      "bytes": 13723
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\latin_1.py",
+      "split": "train",
+      "bytes": 1264
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\mac_arabic.py",
+      "split": "train",
+      "bytes": 36467
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\mac_croatian.py",
+      "split": "train",
+      "bytes": 13633
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\mac_farsi.py",
+      "split": "train",
+      "bytes": 15170
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\mac_greek.py",
+      "split": "train",
+      "bytes": 13721
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\mac_iceland.py",
+      "split": "train",
+      "bytes": 13498
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\mac_latin2.py",
+      "split": "train",
+      "bytes": 14118
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\mac_roman.py",
+      "split": "train",
+      "bytes": 13480
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\mac_romanian.py",
+      "split": "train",
+      "bytes": 13661
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\mac_turkish.py",
+      "split": "train",
+      "bytes": 13513
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\oem.py",
+      "split": "train",
+      "bytes": 1019
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\palmos.py",
+      "split": "train",
+      "bytes": 13552
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\ptcp154.py",
+      "split": "train",
+      "bytes": 14015
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\punycode.py",
+      "split": "train",
+      "bytes": 7625
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\quopri_codec.py",
+      "split": "train",
+      "bytes": 1525
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\raw_unicode_escape.py",
+      "split": "train",
+      "bytes": 1332
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\rot_13.py",
+      "split": "train",
+      "bytes": 2448
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\shift_jis_2004.py",
+      "split": "train",
+      "bytes": 1059
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\shift_jisx0213.py",
+      "split": "train",
+      "bytes": 1059
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\tis_620.py",
+      "split": "train",
+      "bytes": 12300
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\undefined.py",
+      "split": "train",
+      "bytes": 1301
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\unicode_escape.py",
+      "split": "train",
+      "bytes": 1304
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\utf_16.py",
+      "split": "train",
+      "bytes": 5280
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\utf_16_be.py",
+      "split": "train",
+      "bytes": 1037
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\utf_32.py",
+      "split": "train",
+      "bytes": 5175
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\utf_32_be.py",
+      "split": "train",
+      "bytes": 930
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\utf_32_le.py",
+      "split": "train",
+      "bytes": 930
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\utf_7.py",
+      "split": "train",
+      "bytes": 946
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\utf_8.py",
+      "split": "train",
+      "bytes": 1005
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\utf_8_sig.py",
+      "split": "train",
+      "bytes": 4133
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\encodings\\uu_codec.py",
+      "split": "train",
+      "bytes": 2851
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\ensurepip\\__init__.py",
+      "split": "train",
+      "bytes": 8256
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\ensurepip\\__main__.py",
+      "split": "train",
+      "bytes": 88
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\ensurepip\\_uninstall.py",
+      "split": "train",
+      "bytes": 808
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\enum.py",
+      "split": "train",
+      "bytes": 85627
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\filecmp.py",
+      "split": "train",
+      "bytes": 10652
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\fileinput.py",
+      "split": "train",
+      "bytes": 15717
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\fnmatch.py",
+      "split": "train",
+      "bytes": 6180
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\ftplib.py",
+      "split": "train",
+      "bytes": 35240
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\functools.py",
+      "split": "train",
+      "bytes": 39065
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\genericpath.py",
+      "split": "train",
+      "bytes": 6247
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\getopt.py",
+      "split": "train",
+      "bytes": 7488
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\getpass.py",
+      "split": "train",
+      "bytes": 6233
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\gettext.py",
+      "split": "train",
+      "bytes": 21534
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\glob.py",
+      "split": "train",
+      "bytes": 20924
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\gzip.py",
+      "split": "train",
+      "bytes": 24607
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\hashlib.py",
+      "split": "train",
+      "bytes": 9446
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\heapq.py",
+      "split": "train",
+      "bytes": 23024
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\hmac.py",
+      "split": "train",
+      "bytes": 7759
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\html\\__init__.py",
+      "split": "train",
+      "bytes": 4775
+    },
+    {
+      "path": "C:\\Users\\卢怡然\\.workbuddy\\binaries\\python\\versions\\3.13.12\\Lib\\html\\entities.py",
+      "split": "train",
+      "bytes": 74376
+    }
+  ]
+}
