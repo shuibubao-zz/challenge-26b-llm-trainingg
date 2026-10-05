@@ -1,0 +1,30 @@
+###### seed 1337 ######
+测量 rho_val ...
+测量 rho_train ...
+  水平差 nats/byte = +0.87117  形状残差 L2 = 0.053667 (曲线自身标准差 0.093724)
+  预算  1.0x: stride(val 标定)=512   stride(train 标定)=512   一致=True  ΔBPB=0.00e+00
+  预算  2.0x: stride(val 标定)=256   stride(train 标定)=256   一致=True  ΔBPB=0.00e+00
+  预算  4.0x: stride(val 标定)=256   stride(train 标定)=256   一致=True  ΔBPB=0.00e+00
+  预算  8.0x: stride(val 标定)=256   stride(train 标定)=256   一致=True  ΔBPB=0.00e+00
+  预算 16.0x: stride(val 标定)=256   stride(train 标定)=256   一致=True  ΔBPB=0.00e+00
+-> analysis\crossval_seed1337.json
+###### seed 42 ######
+测量 rho_val ...
+测量 rho_train ...
+  水平差 nats/byte = +0.88442  形状残差 L2 = 0.057873 (曲线自身标准差 0.094311)
+  预算  1.0x: stride(val 标定)=512   stride(train 标定)=512   一致=True  ΔBPB=0.00e+00
+  预算  2.0x: stride(val 标定)=256   stride(train 标定)=256   一致=True  ΔBPB=0.00e+00
+  预算  4.0x: stride(val 标定)=256   stride(train 标定)=256   一致=True  ΔBPB=0.00e+00
+  预算  8.0x: stride(val 标定)=256   stride(train 标定)=256   一致=True  ΔBPB=0.00e+00
+  预算 16.0x: stride(val 标定)=256   stride(train 标定)=256   一致=True  ΔBPB=0.00e+00
+-> analysis\crossval_seed42.json
+###### seed 2026 ######
+测量 rho_val ...
+测量 rho_train ...
+  水平差 nats/byte = +0.86201  形状残差 L2 = 0.049317 (曲线自身标准差 0.096372)
+  预算  1.0x: stride(val 标定)=512   stride(train 标定)=512   一致=True  ΔBPB=0.00e+00
+  预算  2.0x: stride(val 标定)=256   stride(train 标定)=256   一致=True  ΔBPB=0.00e+00
+  预算  4.0x: stride(val 标定)=256   stride(train 标定)=256   一致=True  ΔBPB=0.00e+00
+  预算  8.0x: stride(val 标定)=256   stride(train 标定)=256   一致=True  ΔBPB=0.00e+00
+  预算 16.0x: stride(val 标定)=256   stride(train 标定)=256   一致=True  ΔBPB=0.00e+00
+-> analysis\crossval_seed2026.json

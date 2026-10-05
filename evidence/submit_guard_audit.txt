@@ -1,0 +1,66 @@
+# 提交前体检报告：C2G 参数高尔夫 —— 极限约束下的语言模型训练
+
+- **挑战**：`C2G`（平台 ID `ch-20260717031359-b8wyg0`，截止 2026-12-31T23:59）
+- **路径**：`C:\Users\卢怡然\Desktop\C2G`
+- **扫描**：275 个文件，共 17.7 MB
+- **交付物完整度**：4 / 4（100%）
+
+## 1. 交付物核对
+
+| 必交物 | 匹配模式 | 状态 | 命中文件 |
+|---|---|---|---|
+| 方案草案 | `*方案草案*` | ✅ 已交 | `卢怡然_C2G_方案草案.md` |
+| 方案设计 | `*方案设计*` | ✅ 已交 | `卢怡然_C2G_方案设计.md` |
+| AI日志 | `*AI日志*` | ✅ 已交 | `卢怡然_C2G_AI日志.md` |
+| AAR | `*AAR*` | ✅ 已交 | `卢怡然_C2G_AAR.md` |
+
+## 2. 命名规范（`姓名_挑战号_部件.扩展名`）
+
+- 符合规范：**9** 个
+- 不符合规范：**266** 个
+- 示例（最多列 8 个）：`README.md`、`_upstream/parameter-golf-main/LICENSE`、`_upstream/parameter-golf-main/README.md`、`_upstream/parameter-golf-main/THIRD_PARTY_NOTICES.md`、`_upstream/parameter-golf-main/data/README.md`、`_upstream/parameter-golf-main/data/cached_challenge_fineweb.py`、`_upstream/parameter-golf-main/data/download_hf_docs_and_tokenize.py`、`_upstream/parameter-golf-main/data/tokenizer_specs.json`
+
+## 3. 红线扫描
+
+- 🚩 **存在空文件**（empty_files）：2 个文件大小为 0：_upstream/parameter-golf-main/records/track_non_record_16mb/2026-03-19_SwiGLU_WarmdownFix_QuarterBatch_1x5090/train_gpt.py、evidence/submit_guard_audit.txt
+
+## 4. 五维粗估（机器估计，非官方评分）
+
+| 维度 | 粗估 | 满分 | 差距 | 命中信号 | 缺失信号 |
+|---|---:|---:|---:|---|---|
+| 成绩达成 | **12.5** | 25 | 12.5 | 3 | — |
+| 方法学 | **10.0** | 20 | 10.0 | 3 | — |
+| 产物完整性 | **15.0** | 15 | 0.0 | 3 | — |
+| AI使用质量 | **20.0** | 20 | 0.0 | 4 | — |
+| 复盘质量 | **20.0** | 20 | 0.0 | 4 | — |
+
+**粗估总分：77.5 / 100**
+
+> 粗估逻辑：`维度满分 × 命中信号比例 × (0.6 + 0.4 × 交付物完整度)`，再套用红线封顶。
+> 它回答的是「最可能在哪丢分」，不是「我能得几分」——请结合下面的杠杆逐条人工复核。
+
+## 5. 提分杠杆（按丢分从大到小）
+
+1. **成绩达成**（丢 12.5 分 / 满分 25）
+2. **方法学**（丢 10.0 分 / 满分 20）
+3. **产物完整性**（丢 0.0 分 / 满分 15）
+
+## 6. TODO（按优先级执行）
+
+1. 清理 2 个文件大小为 0：_upstream/parameter-golf-main/records/track_non_record_16mb/2026-03-19_SwiGLU_WarmdownFix_QuarterBatch_1x5090/train_gpt.py、evidence/submit_guard_audit.txt
+2. 统一文件命名为 `姓名_C2G_部件.扩展名`（当前 266 个不符合），便于评审与自动化盘点
+3. 提升「成绩达成」：补齐信号 （信号已全命中，需提升质量而非数量）
+4. 提升「方法学」：补齐信号 （信号已全命中，需提升质量而非数量）
+
+## 7. 机器查不到、必须人工确认的事
+
+这一节来自真实教训：文件齐全 ≠ 得分高。脚本只能读文件，读不到「事情有没有真的发生」。
+
+- [ ] **行为是否真的发生**：稿子写好了 ≠ 发出去了（C3 实测：5 篇稿齐备、文件零缺失，仍因「未发出」被扣约 15 分）
+- [ ] **内容是否真实可复核**：有没有编造的引用、数据、回应人？宁可留空回填区，也不要编
+- [ ] **陌生人能否照做**：找一个没看过你项目的人按文档走一遍，卡住的地方就是丢分点
+- [ ] **demo 是否现在还能跑**：脚本/命令换台机器重跑一次，别依赖你本机的环境变量
+
+---
+
+_由 challenge-submit-guard 生成 · 注册表版本 1 · 生成时间 2026-10-04 17:01:30_

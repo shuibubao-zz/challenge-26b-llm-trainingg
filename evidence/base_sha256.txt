@@ -1,0 +1,17 @@
+root/train_gpt.py
+  sha256=c6cae5e767aa0464e8767620f3bbdb08048c99f4b7ae0f0e146dd9b17e68e673
+  lines=1126 bytes=47686
+records/2026-03-17_NaiveBaseline/train_gpt.py
+  sha256=e77cf46e4a37cdb6ae8de4f82ac4f139674e5e60f16e0533aa6beecefacf3421
+  lines=1126 bytes=47642
+records/2026-03-19_SlidingWindowEval/train_gpt.py
+  sha256=cf6123df1c5f5b9eebcb49b37722e5f434e5ab1442a2491b81f33f5725a9ad8c
+  lines=1366 bytes=58357
+卢怡然_C2G_train_gpt.py
+  sha256=ea83b8162f84cc84892fad141ea83a41c9cb3561966473ca837b6f5f6ceb3d4d
+  lines=1415 bytes=61809
+evidence/submission_script.patch
+  sha256=97b2e9cf6bec622ae327c702a7351349cbb93fe8c2f7518f1b65718c4d74ed6d
+  lines=350 bytes=16458
+
+root 与 NaiveBaseline 逐字节相同: False
